@@ -14,6 +14,7 @@
       </input>
       <output id="output_1" label="passes" name="passes" typeRef="boolean" />
       <output id="OutputClause_05h1co6" label="reason" name="reason" typeRef="string" />
+      <output id="OutputClause_03or863" label="category" name="category" typeRef="string" />
       <rule id="DecisionRule_0aznir8">
         <inputEntry id="UnaryTests_1x4xf13">
           <text>&lt;= 0.90</text>
@@ -26,6 +27,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_07v4w07">
           <text>"AUC under threshold of 0.90"</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0o2n1d2">
+          <text>"statistical"</text>
         </outputEntry>
       </rule>
       <rule id="DecisionRule_0ggwcp6">
@@ -40,6 +44,9 @@
         </outputEntry>
         <outputEntry id="LiteralExpression_1qpb76t">
           <text>"F2 under threshold of 0.60"</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_0k2oxkb">
+          <text>"statistical"</text>
         </outputEntry>
       </rule>
     </decisionTable>
